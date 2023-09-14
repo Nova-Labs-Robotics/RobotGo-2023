@@ -1,3 +1,9 @@
+# Welcome to the RobotGo 2023 Repo!
+
+This repository contains the code for RobotGo for the 2023-2024 season. All new branches should be off of master, as rohan-2022-archive is the code from last year's game, and is deprecated. 
+
+Below is the README.md from the original FTC repository, linked here: https://github.com/FIRST-Tech-Challenge/FtcRobotController
+
 ## NOTICE
 
 This repository contains the public FTC SDK for the CENTERSTAGE (2023-2024) competition season.
