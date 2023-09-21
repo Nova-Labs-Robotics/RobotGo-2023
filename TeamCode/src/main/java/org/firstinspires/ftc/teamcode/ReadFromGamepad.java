@@ -3,7 +3,10 @@ package org.firstinspires.ftc.teamcode;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
-// Test
+/*
+This file reads data from the gamepad and prints it to the phone screen
+Specifically, it reads data from the joysticks
+ */
 
 @TeleOp
 public class ReadFromGamepad extends LinearOpMode{
