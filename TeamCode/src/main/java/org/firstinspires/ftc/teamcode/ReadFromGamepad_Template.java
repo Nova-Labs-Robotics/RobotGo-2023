@@ -20,6 +20,7 @@ public class ReadFromGamepad_Template extends LinearOpMode{
     public void runOpMode(){
 
         // runs until the end of the match (until the driver presses STOP)
+        waitForStart();
         while(opModeIsActive()){
 
         }
