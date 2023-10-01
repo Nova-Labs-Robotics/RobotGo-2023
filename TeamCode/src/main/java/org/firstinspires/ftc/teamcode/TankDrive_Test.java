@@ -12,7 +12,7 @@ import com.qualcomm.robotcore.hardware.DcMotorSimple;
  */
 
 @TeleOp
-public class TankDriveTest extends LinearOpMode {
+public class TankDrive_Test extends LinearOpMode {
 
     // Declare Motors
     private DcMotor Motor0 = null;
@@ -25,10 +25,10 @@ public class TankDriveTest extends LinearOpMode {
         telemetry.addData("Status", "Initialized");
         telemetry.update();
 
-        Motor0 = hardwareMap.get(DcMotor.class, "left_drive");
-        Motor1 = hardwareMap.get(DcMotor.class, "right_drive");
-        Motor2 = hardwareMap.get(DcMotor.class, "leftBack_drive");
-        Motor3 = hardwareMap.get(DcMotor.class, "rightBack_drive");
+        Motor0 = hardwareMap.get(DcMotor.class, "left_front_drive");
+        Motor1 = hardwareMap.get(DcMotor.class, "right_front_drive");
+        Motor2 = hardwareMap.get(DcMotor.class, "left_back_drive");
+        Motor3 = hardwareMap.get(DcMotor.class, "right_back_drive");
 
         Motor0.setDirection(DcMotorSimple.Direction.FORWARD);
         Motor1.setDirection(DcMotorSimple.Direction.FORWARD);
